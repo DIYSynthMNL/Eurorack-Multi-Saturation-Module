@@ -39,11 +39,7 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
     
     ![Untitled](readme_images/Untitled%201.png)
     
-    A buffer would suffice as the input stage. We wouldn’t be able to amplify the 10Vpp input to 12Vpp unless we use a +/- 15V supply. 
-    
-    ![Taken from sound-au.com](readme_images/Untitled%202.png)
-    
-    Taken from sound-au.com
+    A buffer would suffice as the input stage. We wouldn’t be able to amplify the 10Vpp input to 12Vpp unless we use a +/- 15V supply.
     
 2. Transformer Saturation
     
