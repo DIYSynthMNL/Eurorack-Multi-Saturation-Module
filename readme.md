@@ -20,8 +20,8 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
 ### Other sources
 
 - Eliot Sound Products - is a website full of audio articles that I’ve learned from
-    - [Designing With OpAmps](https://sound-au.com/dwopa.htm)
-    - [Audio Transformers](https://sound-au.com/articles/audio-xfmrs.htm)
+    - [Designing With OpAmps](https://sound-au.com/)
+    - [Audio Transformers](https://sound-au.com/)
 - Automatic gain amplifier
     - [Vactrol auto gain op amp](https://www.youtube.com/watch?v=Cg2cLocjgGQ)
 - Vactrol wet/dry mix from music thing modular’s spring reverb module
@@ -41,9 +41,9 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
     
     A buffer would suffice as the input stage. We wouldn’t be able to amplify the 10Vpp input to 12Vpp unless we use a +/- 15V supply. 
     
-    ![Taken from eliotsoundproducts.com](readme_images/Untitled%202.png)
+    ![Taken from sound-au.com](readme_images/Untitled%202.png)
     
-    Taken from eliotsoundproducts.com
+    Taken from sound-au.com
     
 2. Transformer Saturation
     
