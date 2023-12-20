@@ -6,8 +6,8 @@
 
   (title_block
     (title "Eurorack Transformer Saturation Module")
-    (date "2023-12-19")
-    (rev "0.2")
+    (date "2023-12-20")
+    (rev "0.3")
     (company "DIYSynthManila")
     (comment 1 "This version is a prototype.")
   )
@@ -507,6 +507,65 @@
         )
       )
       (symbol "R_Potentiometer_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 1.27)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_Potentiometer_Trim" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "RV" (at -4.445 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R_Potentiometer_Trim" (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "resistor variable trimpot trimmer" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Trim-potentiometer" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Potentiometer*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_Potentiometer_Trim_0_1"
+        (polyline
+          (pts
+            (xy 1.524 0.762)
+            (xy 1.524 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0)
+            (xy 1.524 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 1.016 2.54) (end -1.016 -2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_Potentiometer_Trim_1_1"
         (pin passive line (at 0 3.81 270) (length 1.27)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1154,6 +1213,9 @@
   (junction (at 44.45 113.03) (diameter 0) (color 0 0 0 0)
     (uuid 2dcb4e3d-8707-4727-8637-9a2ea5152c6f)
   )
+  (junction (at 113.03 106.68) (diameter 0) (color 0 0 0 0)
+    (uuid 2e608e60-c5f9-40f3-8ddd-bd64c1472f3c)
+  )
   (junction (at 24.13 168.91) (diameter 0) (color 0 0 0 0)
     (uuid 33cbef10-34e7-4ce1-9453-60fffd981655)
   )
@@ -1202,6 +1264,9 @@
   (junction (at 128.27 38.1) (diameter 0) (color 0 0 0 0)
     (uuid da91b262-f5ad-45f7-b31d-8e4693cad346)
   )
+  (junction (at 113.03 99.06) (diameter 0) (color 0 0 0 0)
+    (uuid e3ee9eec-3f59-4dc8-b4ec-7c8cfb31e740)
+  )
   (junction (at 203.2 114.3) (diameter 0) (color 0 0 0 0)
     (uuid ef3accc3-9c6b-414d-8482-941cbbe51273)
   )
@@ -1214,9 +1279,6 @@
   (junction (at 55.88 184.15) (diameter 0) (color 0 0 0 0)
     (uuid f5deddcc-ced9-417f-8c69-ccbfa45bb252)
   )
-  (junction (at 113.03 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid f7b4fdc6-b584-4edf-aeea-48b5c5844869)
-  )
   (junction (at 80.01 46.99) (diameter 0) (color 0 0 0 0)
     (uuid fcaa6eeb-d925-4cab-ac41-b2ef03caea07)
   )
@@ -1228,6 +1290,10 @@
   (wire (pts (xy 62.23 46.99) (xy 80.01 46.99))
     (stroke (width 0) (type default))
     (uuid 0a23b4c9-6579-47aa-bdaf-6450974c5cea)
+  )
+  (wire (pts (xy 116.84 102.87) (xy 116.84 106.68))
+    (stroke (width 0) (type default))
+    (uuid 0dbf55d7-efff-4321-a852-40a30ac571b0)
   )
   (wire (pts (xy 91.44 115.57) (xy 91.44 127))
     (stroke (width 0) (type default))
@@ -1244,6 +1310,10 @@
   (wire (pts (xy 82.55 110.49) (xy 91.44 110.49))
     (stroke (width 0) (type default))
     (uuid 13bb06b2-988d-49f2-a3b5-bcde21716a5c)
+  )
+  (wire (pts (xy 116.84 106.68) (xy 113.03 106.68))
+    (stroke (width 0) (type default))
+    (uuid 17a72134-0e95-44ea-b061-8682a360e1e9)
   )
   (wire (pts (xy 91.44 127) (xy 110.49 127))
     (stroke (width 0) (type default))
@@ -1384,6 +1454,10 @@
   (wire (pts (xy 218.44 114.3) (xy 219.71 114.3))
     (stroke (width 0) (type default))
     (uuid 7794fa6d-84aa-49d2-aa55-fd5f1fd062d8)
+  )
+  (wire (pts (xy 113.03 106.68) (xy 113.03 107.95))
+    (stroke (width 0) (type default))
+    (uuid 799e2f05-283d-4aa2-8594-af94cfb610f3)
   )
   (wire (pts (xy 59.69 128.27) (xy 63.5 128.27))
     (stroke (width 0) (type default))
@@ -1636,7 +1710,7 @@
     (uuid f70c839b-674f-4e6c-9c3d-3714b8903b70)
   )
 
-  (text_box "C1 and R4 is a high pass filter with a cut off frequency of 15Hz"
+  (text_box "C1 and R12 is a high pass filter with a cut off frequency of 15Hz"
     (at 152.4 27.94 0) (size 17.78 7.62)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -1664,8 +1738,8 @@
     (effects (font (size 1 1)) (justify left top))
     (uuid 9a332d2f-1b77-4685-8bb1-a9854dbc9feb)
   )
-  (text_box "U2A amplifies the xformer's output signal with a gain of 2.47 to bring it back to the input signal voltage level. This depends on the xformer, so i should replace the R5 with a trimmer."
-    (at 135.89 83.82 0) (size 20.32 15.24)
+  (text_box "U2A Amplifies the wet signal. Trim it so its amplitude is similar to the dry signal."
+    (at 135.89 83.82 0) (size 20.32 7.62)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1 1)) (justify left top))
@@ -1679,7 +1753,7 @@
     (uuid b60b8d69-b621-41c6-9870-17b936e2361e)
   )
   (text_box "Mix trim moves the cv waveform up or down +/- 12v. This tunes the vactrol response."
-    (at 30.48 83.82 0) (size 22.86 8.89)
+    (at 30.48 83.82 0) (size 22.86 7.62)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1 1)) (justify left top))
@@ -1694,14 +1768,18 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 17b4e6ed-e1cd-449b-93a8-3c666018bcef)
   )
-  (text "VTL5C3 R13 = 47k\nSilonex 32SR3 R12 = 470R\nExperiment with handmade vactrols"
-    (at 120.65 140.97 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (text "VTL5C3 R13 = 47k\nSilonex 32SR3 R12 = 470R\nHandmade Vactrol with 5mm led and LDR = 47k"
+    (at 115.57 140.97 0)
+    (effects (font (size 1 1)) (justify left bottom))
     (uuid 882c8207-cc45-4484-b2cc-94f278e67b44)
   )
   (text "Wet/Dry Mix" (at 30.48 83.82 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e7d237be-f3ae-45fc-9725-c039abf4bcde)
+  )
+  (text "wet gain compensation\n" (at 93.98 99.06 0)
+    (effects (font (size 1 1)) (justify left bottom))
+    (uuid ebdb4609-2d1c-4a67-8ccd-505049323606)
   )
   (text "Transformer saturation stage" (at 85.09 27.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1803,7 +1881,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1834,7 +1912,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R12") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1881,27 +1959,28 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 113.03 102.87 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 113.03 102.87 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 03ac4678-fe8e-4359-988a-363526298ded)
-    (property "Reference" "R8" (at 114.3 101.6 0)
+    (uuid 1432ad40-6aa2-4982-a0e6-1cc86d6ffc00)
+    (property "Reference" "RV3" (at 110.49 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "6.8k" (at 114.3 104.14 0)
+    (property "Value" "10k" (at 110.49 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 114.808 102.87 90)
+    (property "Footprint" "" (at 113.03 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 113.03 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3a8ce4e4-1d15-483c-be15-1bc2f3c3ba26))
-    (pin "2" (uuid 6b2119c5-8df8-42a9-97cf-f7d23a3e2212))
+    (pin "2" (uuid 4a97a1f9-5aea-4669-9d87-ad40842c6307))
+    (pin "3" (uuid 14bfb6d8-5048-4ae0-8654-4a44f8363a23))
+    (pin "1" (uuid d626d544-a70c-45cb-a67e-caf9c27d50e4))
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R8") (unit 1)
+          (reference "RV3") (unit 1)
         )
       )
     )
@@ -1964,7 +2043,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R10") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1994,7 +2073,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2027,7 +2106,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2058,7 +2137,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R15") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2089,7 +2168,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R11") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2120,19 +2199,19 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R13") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 99.06 113.03 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 40c06544-7a55-49a6-a59f-50d5824192db)
-    (property "Reference" "U2" (at 99.06 102.87 0)
+    (property "Reference" "U1" (at 100.33 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "NE5532" (at 99.06 105.41 0)
+    (property "Value" "NE5532" (at 101.6 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 99.06 113.03 0)
@@ -2141,18 +2220,18 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf" (at 99.06 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b08e4740-d78b-4406-abbc-73a613f1b83b))
-    (pin "4" (uuid c5740ed8-8a36-49d9-b0e7-e300fe866beb))
-    (pin "3" (uuid 662acc98-3a8b-4c8d-9fda-55e281d375a1))
-    (pin "8" (uuid be88f3e4-b901-4985-b8c5-51761b36c2a1))
-    (pin "6" (uuid dea88dd5-8047-4ee5-a621-9c454ba348a6))
-    (pin "7" (uuid 1d12bdc9-7b39-4348-8369-affcde2585ba))
-    (pin "5" (uuid f5701e01-7ebb-4761-96e9-f770a4d97a2c))
-    (pin "1" (uuid ba1dd46c-7e89-41e0-a041-ecceac742d16))
+    (pin "2" (uuid b08e4740-d78b-4406-abbc-73a613f1b83c))
+    (pin "4" (uuid c5740ed8-8a36-49d9-b0e7-e300fe866bec))
+    (pin "3" (uuid 662acc98-3a8b-4c8d-9fda-55e281d375a2))
+    (pin "8" (uuid be88f3e4-b901-4985-b8c5-51761b36c2a2))
+    (pin "6" (uuid dea88dd5-8047-4ee5-a621-9c454ba348a7))
+    (pin "7" (uuid 1d12bdc9-7b39-4348-8369-affcde2585bb))
+    (pin "5" (uuid f5701e01-7ebb-4761-96e9-f770a4d97a2d))
+    (pin "1" (uuid ba1dd46c-7e89-41e0-a041-ecceac742d17))
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U2") (unit 2)
+          (reference "U1") (unit 2)
         )
       )
     )
@@ -2182,7 +2261,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2191,7 +2270,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 67.31 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44e13633-6278-4a47-96ce-c460c709c325)
-    (property "Reference" "U4" (at 67.31 113.03 0)
+    (property "Reference" "U1" (at 67.31 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NE5532" (at 68.58 115.57 0)
@@ -2203,18 +2282,18 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf" (at 67.31 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b08e4740-d78b-4406-abbc-73a613f1b83b))
-    (pin "4" (uuid c5740ed8-8a36-49d9-b0e7-e300fe866beb))
-    (pin "3" (uuid 662acc98-3a8b-4c8d-9fda-55e281d375a1))
-    (pin "8" (uuid be88f3e4-b901-4985-b8c5-51761b36c2a1))
-    (pin "6" (uuid dea88dd5-8047-4ee5-a621-9c454ba348a6))
-    (pin "7" (uuid 1d12bdc9-7b39-4348-8369-affcde2585ba))
-    (pin "5" (uuid f5701e01-7ebb-4761-96e9-f770a4d97a2c))
-    (pin "1" (uuid ba1dd46c-7e89-41e0-a041-ecceac742d16))
+    (pin "2" (uuid b08e4740-d78b-4406-abbc-73a613f1b83d))
+    (pin "4" (uuid c5740ed8-8a36-49d9-b0e7-e300fe866bed))
+    (pin "3" (uuid 662acc98-3a8b-4c8d-9fda-55e281d375a3))
+    (pin "8" (uuid be88f3e4-b901-4985-b8c5-51761b36c2a3))
+    (pin "6" (uuid dea88dd5-8047-4ee5-a621-9c454ba348a8))
+    (pin "7" (uuid 1d12bdc9-7b39-4348-8369-affcde2585bc))
+    (pin "5" (uuid f5701e01-7ebb-4761-96e9-f770a4d97a2e))
+    (pin "1" (uuid ba1dd46c-7e89-41e0-a041-ecceac742d18))
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2244,7 +2323,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2314,7 +2393,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2345,7 +2424,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2376,7 +2455,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R3") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2407,7 +2486,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2437,7 +2516,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -2467,7 +2546,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2504,7 +2583,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U4") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
     )
@@ -2573,7 +2652,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "RV2") (unit 1)
+          (reference "RV1") (unit 1)
         )
       )
     )
@@ -2617,7 +2696,7 @@
   (symbol (lib_id "power:GND") (at 269.24 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b18fa86-91c0-4f9a-969d-127ecc54e5fd)
-    (property "Reference" "#PWR012" (at 269.24 139.7 0)
+    (property "Reference" "#PWR019" (at 269.24 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 269.24 138.43 0)
@@ -2633,7 +2712,7 @@
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2693,7 +2772,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2724,7 +2803,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2754,7 +2833,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2763,7 +2842,7 @@
   (symbol (lib_id "power:GND") (at 33.02 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6b677b9-7f67-4d3b-a56a-fe2bafed545f)
-    (property "Reference" "#PWR01" (at 33.02 44.45 0)
+    (property "Reference" "#PWR03" (at 33.02 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 43.18 0)
@@ -2779,7 +2858,7 @@
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2810,25 +2889,25 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R14") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 113.03 106.68 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 113.03 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae6ffed2-b9a0-4cde-bf74-ff49aa891207)
-    (property "Reference" "#PWR?" (at 113.03 113.03 0)
+    (property "Reference" "#PWR?" (at 113.03 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 113.03 111.76 0)
+    (property "Value" "GND" (at 113.03 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 113.03 106.68 0)
+    (property "Footprint" "" (at 113.03 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 113.03 106.68 0)
+    (property "Datasheet" "" (at 113.03 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9a1b74d1-896e-4c62-bf63-ad6b4a661f36))
@@ -2840,7 +2919,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2870,7 +2949,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2900,7 +2979,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2930,7 +3009,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2962,7 +3041,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "RV1") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
@@ -3022,7 +3101,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3053,7 +3132,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R2") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3144,7 +3223,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3175,7 +3254,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R16") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3205,7 +3284,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3214,7 +3293,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 58.42 176.53 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb7f5ccd-81b4-40de-a984-1a7d6a869b62)
-    (property "Reference" "U4" (at 57.15 175.26 0)
+    (property "Reference" "U3" (at 57.15 175.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NE5532" (at 57.15 177.8 0)
@@ -3237,7 +3316,7 @@
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U4") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
     )
@@ -3300,7 +3379,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3335,10 +3414,10 @@
   (symbol (lib_id "Device:R") (at 121.92 99.06 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf5a2af2-5b74-414d-bcb7-223b0f323341)
-    (property "Reference" "R5" (at 124.46 104.14 90)
+    (property "Reference" "R9" (at 121.92 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 124.46 101.6 90)
+    (property "Value" "10k" (at 121.92 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 121.92 100.838 90)
@@ -3352,7 +3431,7 @@
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R5") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3361,7 +3440,7 @@
   (symbol (lib_id "Device:R") (at 162.56 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d61adc71-a48b-4a53-9707-7a8f6e0b26bb)
-    (property "Reference" "R4" (at 165.1 50.8 0)
+    (property "Reference" "R12" (at 165.1 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 165.1 53.34 0)
@@ -3378,7 +3457,7 @@
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R4") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3408,7 +3487,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3438,7 +3517,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -3471,7 +3550,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U5") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -3480,7 +3559,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 146.05 111.76 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee32f03c-faba-4f24-a97f-1849d6e2b0af)
-    (property "Reference" "U1" (at 146.05 101.6 0)
+    (property "Reference" "U2" (at 146.05 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NE5532" (at 146.05 104.14 0)
@@ -3492,18 +3571,18 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf" (at 146.05 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 6fd7ba67-69c6-452b-95f3-45c0ccde7f88))
-    (pin "4" (uuid 7ec25267-a35b-4895-bcf6-3dc27f3fb814))
-    (pin "2" (uuid 462d8ed5-176d-4fa2-8e0c-d6a522442edd))
-    (pin "6" (uuid dfedcbd6-dbca-4074-bdde-c5de955a73e4))
-    (pin "8" (uuid 422ace58-7407-48c5-980a-d6e2b631c8a6))
-    (pin "1" (uuid 66f6e4b2-7dc4-4a2d-a8e7-705592294abf))
-    (pin "3" (uuid a6945656-64e6-48c5-a527-de039ea35ca0))
-    (pin "7" (uuid 2b7df40e-9396-4a9c-8a01-2fc858940063))
+    (pin "5" (uuid 6fd7ba67-69c6-452b-95f3-45c0ccde7f89))
+    (pin "4" (uuid 7ec25267-a35b-4895-bcf6-3dc27f3fb815))
+    (pin "2" (uuid 462d8ed5-176d-4fa2-8e0c-d6a522442ede))
+    (pin "6" (uuid dfedcbd6-dbca-4074-bdde-c5de955a73e5))
+    (pin "8" (uuid 422ace58-7407-48c5-980a-d6e2b631c8a7))
+    (pin "1" (uuid 66f6e4b2-7dc4-4a2d-a8e7-705592294ac0))
+    (pin "3" (uuid a6945656-64e6-48c5-a527-de039ea35ca1))
+    (pin "7" (uuid 2b7df40e-9396-4a9c-8a01-2fc858940064))
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U1") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -3534,7 +3613,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3564,7 +3643,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3595,7 +3674,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R9") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3635,7 +3714,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 120.65 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f659eea5-4d66-44a1-b4f1-0e25345e821d)
-    (property "Reference" "U2" (at 121.92 86.36 0)
+    (property "Reference" "U3" (at 121.92 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NE5532" (at 124.46 88.9 0)
@@ -3647,18 +3726,18 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf" (at 120.65 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 6fd7ba67-69c6-452b-95f3-45c0ccde7f88))
-    (pin "4" (uuid 7ec25267-a35b-4895-bcf6-3dc27f3fb814))
-    (pin "2" (uuid 462d8ed5-176d-4fa2-8e0c-d6a522442edd))
-    (pin "6" (uuid dfedcbd6-dbca-4074-bdde-c5de955a73e4))
-    (pin "8" (uuid 422ace58-7407-48c5-980a-d6e2b631c8a6))
-    (pin "1" (uuid 66f6e4b2-7dc4-4a2d-a8e7-705592294abf))
-    (pin "3" (uuid a6945656-64e6-48c5-a527-de039ea35ca0))
-    (pin "7" (uuid 2b7df40e-9396-4a9c-8a01-2fc858940063))
+    (pin "5" (uuid 6fd7ba67-69c6-452b-95f3-45c0ccde7f8a))
+    (pin "4" (uuid 7ec25267-a35b-4895-bcf6-3dc27f3fb816))
+    (pin "2" (uuid 462d8ed5-176d-4fa2-8e0c-d6a522442edf))
+    (pin "6" (uuid dfedcbd6-dbca-4074-bdde-c5de955a73e6))
+    (pin "8" (uuid 422ace58-7407-48c5-980a-d6e2b631c8a8))
+    (pin "1" (uuid 66f6e4b2-7dc4-4a2d-a8e7-705592294ac1))
+    (pin "3" (uuid a6945656-64e6-48c5-a527-de039ea35ca2))
+    (pin "7" (uuid 2b7df40e-9396-4a9c-8a01-2fc858940065))
     (instances
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3689,7 +3768,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R6") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3720,7 +3799,7 @@
       )
       (project "Single saturation module - transformer"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
