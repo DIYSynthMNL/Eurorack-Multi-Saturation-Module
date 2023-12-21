@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Eurorack Transformer Saturation Module")
+    (title "Eurorack Multi Saturation Module")
     (date "2023-12-20")
     (rev "0.3")
     (company "DIYSynthManila")
@@ -1882,7 +1882,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR016") (unit 1)
         )
@@ -1913,7 +1913,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R6") (unit 1)
         )
@@ -1954,7 +1954,7 @@
           (reference "Q?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "Q1") (unit 1)
         )
@@ -1979,7 +1979,7 @@
     )
     (pin "1" (uuid c19100e5-84dd-485e-af21-0203518463bf))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR020") (unit 1)
         )
@@ -2006,7 +2006,7 @@
     (pin "3" (uuid 14bfb6d8-5048-4ae0-8654-4a44f8363a23))
     (pin "1" (uuid d626d544-a70c-45cb-a67e-caf9c27d50e4))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "RV3") (unit 1)
         )
@@ -2038,7 +2038,7 @@
     (pin "5" (uuid f5701e01-7ebb-4761-96e9-f770a4d97a2c))
     (pin "1" (uuid ba1dd46c-7e89-41e0-a041-ecceac742d16))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U2") (unit 3)
         )
@@ -2069,7 +2069,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R15") (unit 1)
         )
@@ -2099,7 +2099,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR013") (unit 1)
         )
@@ -2132,7 +2132,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U5") (unit 1)
         )
@@ -2163,7 +2163,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R3") (unit 1)
         )
@@ -2194,7 +2194,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R13") (unit 1)
         )
@@ -2225,7 +2225,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R11") (unit 1)
         )
@@ -2257,7 +2257,7 @@
     (pin "5" (uuid f5701e01-7ebb-4761-96e9-f770a4d97a2d))
     (pin "1" (uuid ba1dd46c-7e89-41e0-a041-ecceac742d17))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U1") (unit 2)
         )
@@ -2287,7 +2287,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR05") (unit 1)
         )
@@ -2319,7 +2319,7 @@
     (pin "5" (uuid f5701e01-7ebb-4761-96e9-f770a4d97a2e))
     (pin "1" (uuid ba1dd46c-7e89-41e0-a041-ecceac742d18))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U1") (unit 1)
         )
@@ -2349,7 +2349,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR014") (unit 1)
         )
@@ -2382,7 +2382,7 @@
           (reference "T?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "T1") (unit 1)
         )
@@ -2419,7 +2419,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U2") (unit 1)
         )
@@ -2450,7 +2450,7 @@
           (reference "D?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "D1") (unit 1)
         )
@@ -2481,7 +2481,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R10") (unit 1)
         )
@@ -2512,7 +2512,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R4") (unit 1)
         )
@@ -2542,7 +2542,7 @@
           (reference "#FLG?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#FLG02") (unit 1)
         )
@@ -2572,7 +2572,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR08") (unit 1)
         )
@@ -2609,7 +2609,7 @@
           (reference "U?") (unit 2)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U3") (unit 2)
         )
@@ -2646,7 +2646,7 @@
           (reference "U?") (unit 3)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U1") (unit 3)
         )
@@ -2678,7 +2678,7 @@
           (reference "RV?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "RV1") (unit 1)
         )
@@ -2713,7 +2713,7 @@
           (reference "SW?") (unit 2)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "SW1") (unit 2)
         )
@@ -2738,7 +2738,7 @@
     )
     (pin "1" (uuid 31d2349c-7629-45cd-9b70-7416e27708e9))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR019") (unit 1)
         )
@@ -2768,7 +2768,7 @@
           (reference "#FLG?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#FLG01") (unit 1)
         )
@@ -2798,7 +2798,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR09") (unit 1)
         )
@@ -2829,7 +2829,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "C2") (unit 1)
         )
@@ -2859,7 +2859,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR02") (unit 1)
         )
@@ -2884,7 +2884,7 @@
     )
     (pin "1" (uuid 7845fee4-9dd8-4140-a734-5e31e6f13dfa))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR03") (unit 1)
         )
@@ -2915,7 +2915,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R1") (unit 1)
         )
@@ -2945,7 +2945,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR012") (unit 1)
         )
@@ -2975,7 +2975,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR010") (unit 1)
         )
@@ -3005,7 +3005,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR018") (unit 1)
         )
@@ -3035,7 +3035,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR06") (unit 1)
         )
@@ -3067,7 +3067,7 @@
           (reference "RV?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "RV2") (unit 1)
         )
@@ -3097,7 +3097,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR07") (unit 1)
         )
@@ -3127,7 +3127,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR01") (unit 1)
         )
@@ -3158,7 +3158,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R7") (unit 1)
         )
@@ -3184,7 +3184,7 @@
     (pin "T" (uuid 4efb7d31-f81c-472b-bf11-fc5ab18625b5))
     (pin "S" (uuid 282ceb24-c381-4f35-85d7-bfd7bc893c5f))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "J3") (unit 1)
         )
@@ -3219,7 +3219,7 @@
           (reference "SW?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "SW1") (unit 1)
         )
@@ -3249,7 +3249,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR04") (unit 1)
         )
@@ -3280,7 +3280,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R8") (unit 1)
         )
@@ -3310,7 +3310,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR017") (unit 1)
         )
@@ -3342,7 +3342,7 @@
     (pin "3" (uuid a6945656-64e6-48c5-a527-de039ea35ca0))
     (pin "7" (uuid 2b7df40e-9396-4a9c-8a01-2fc858940063))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U3") (unit 3)
         )
@@ -3368,7 +3368,7 @@
     (pin "1" (uuid 8e6107a4-134b-4cf8-8383-4541518281bb))
     (pin "2" (uuid ffdcc2c3-7d04-481d-b8eb-7cdd644bb7a2))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "C1") (unit 1)
         )
@@ -3405,7 +3405,7 @@
           (reference "D?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "D2") (unit 1)
         )
@@ -3431,7 +3431,7 @@
     (pin "T" (uuid 44a898d2-331a-46cb-a070-dcc47318a9a2))
     (pin "S" (uuid f761a917-8c66-491e-88d6-060b3d2d76c6))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "J1") (unit 1)
         )
@@ -3457,7 +3457,7 @@
     (pin "1" (uuid ab4d07e8-bcbc-464a-9b5f-584ef57d34e1))
     (pin "2" (uuid 2ac79dc3-48f0-4f4d-a4e5-0cfe538ad7cc))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R9") (unit 1)
         )
@@ -3483,7 +3483,7 @@
     (pin "1" (uuid 66067250-d2ae-4839-ace2-9ffd51ca7af7))
     (pin "2" (uuid c960ff96-c29d-401b-a1c3-c5357cd99e59))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R12") (unit 1)
         )
@@ -3513,7 +3513,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR011") (unit 1)
         )
@@ -3543,7 +3543,7 @@
           (reference "#FLG?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#FLG03") (unit 1)
         )
@@ -3576,7 +3576,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U4") (unit 1)
         )
@@ -3608,7 +3608,7 @@
     (pin "3" (uuid a6945656-64e6-48c5-a527-de039ea35ca1))
     (pin "7" (uuid 2b7df40e-9396-4a9c-8a01-2fc858940064))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U2") (unit 2)
         )
@@ -3639,7 +3639,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "C3") (unit 1)
         )
@@ -3665,7 +3665,7 @@
     (pin "1" (uuid 2775e95c-248f-4ab8-bdf6-e8720c26b62f))
     (pin "2" (uuid c2872d0f-1cbe-49f5-87fd-495db4c5702e))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R2") (unit 1)
         )
@@ -3695,7 +3695,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "#PWR015") (unit 1)
         )
@@ -3726,7 +3726,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R5") (unit 1)
         )
@@ -3757,7 +3757,7 @@
           (reference "J?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "J2") (unit 1)
         )
@@ -3789,7 +3789,7 @@
     (pin "3" (uuid a6945656-64e6-48c5-a527-de039ea35ca2))
     (pin "7" (uuid 2b7df40e-9396-4a9c-8a01-2fc858940065))
     (instances
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "U3") (unit 1)
         )
@@ -3820,7 +3820,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "Single saturation module - transformer"
+      (project "Multi saturation module"
         (path "/ec237045-c42e-41b5-9862-2d4c3f861897"
           (reference "R14") (unit 1)
         )
