@@ -35,35 +35,35 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
 
 1. Input gain stage (buffer only, see design note below)
     
-    ![Untitled](Synth%20Distortion%20Saturation%20Module%20Design%20889d5b13ff854b519aa069130404aa05/Untitled.png)
+    ![Untitled](readme_images/Untitled.png)
     
     We must take into account the headroom of the op amp. The NE5532 can only output 2 volts less than the supply voltage. So for example, your supply voltage would be +/- 12V, your max output would be 10V based on the image below.
     
-    ![Untitled](Synth%20Distortion%20Saturation%20Module%20Design%20889d5b13ff854b519aa069130404aa05/Untitled%201.png)
+    ![Untitled](readme_images/Untitled%201.png)
     
     A buffer would suffice as the input stage. We wouldn’t be able to amplify the 10Vpp input to 12Vpp unless we use a +/- 15V supply. 
     
 2. Transformer Saturation
     
-    ![Untitled](Synth%20Distortion%20Saturation%20Module%20Design%20889d5b13ff854b519aa069130404aa05/Untitled%202.png)
+    ![Untitled](readme_images/Untitled%202.png)
     
 3. Voltage controlled Vactrol Wet/Dry mix
     
     I used my handmade Vactrol. I made it using a 5mm diffused red LED and a 5mm LDR enclosed with black heat shrink tubing. I crimped the ends so no light would leak in. 47k works for R13 with my Vactrol.
     
-    ![Untitled](Synth%20Distortion%20Saturation%20Module%20Design%20889d5b13ff854b519aa069130404aa05/Untitled%203.png)
+    ![Untitled](readme_images/Untitled%203.png)
     
 4. Vactrol Opto Electronic Saturation (To Test)
     
-    ![Untitled](Synth%20Distortion%20Saturation%20Module%20Design%20889d5b13ff854b519aa069130404aa05/Untitled%204.png)
+    ![Untitled](readme_images/Untitled%204.png)
     
 5. Soft Clipping Diode Saturation (To Test)
     
-    ![Untitled](Synth%20Distortion%20Saturation%20Module%20Design%20889d5b13ff854b519aa069130404aa05/Untitled%205.png)
+    ![Untitled](readme_images/Untitled%205.png)
     
 6. Output gain stage (not yet tested)
     
-    ![Untitled](Synth%20Distortion%20Saturation%20Module%20Design%20889d5b13ff854b519aa069130404aa05/Untitled%206.png)
+    ![Untitled](readme_images/Untitled%206.png)
     
 
 ## Some circuit housekeeping todo
