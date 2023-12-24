@@ -243,11 +243,14 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "DIYSynthMNL",
+      "benjiaomodular"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Single saturation module - transformer.kicad_pro",
+    "filename": "Multi saturation module.kicad_pro",
     "version": 1
   },
   "net_settings": {
