@@ -131,7 +131,7 @@
 
   (footprint "DIYSynthMNL:AudioJack_3.5mm_long_pads" (layer "F.Cu")
     (tstamp 03841e38-804a-4212-b997-da40a666cb4c)
-    (at 79.63 49.56)
+    (at 267 106.6)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")
@@ -214,7 +214,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 05e94471-21c8-44d8-a381-8991f6867d2d)
-    (at 194.09 16.27)
+    (at 64.77 39.61)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -280,7 +280,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 150853e9-47b3-49bc-8cd6-5ddb6f7a59cf)
-    (at 27.94 160.02)
+    (at 106.705 27.11)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -346,7 +346,7 @@
 
   (footprint "DIYSynthMNL:IDC-Header_2x05_P2.54mm_Vertical_BigPads" (layer "F.Cu")
     (tstamp 17505965-5027-447c-874f-a4333f2cec6a)
-    (at 20.32 99.06)
+    (at 22.86 25.4)
     (descr "Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
     (tags "Through hole vertical IDC box header THT 2x05 2.54mm double row")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -458,7 +458,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 202e1c0b-52bc-443f-86b5-106204101b7c)
-    (at 264.16 144.78)
+    (at 245.03 151.13)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -524,7 +524,7 @@
 
   (footprint "DIYSynthMNL:Handmade_vactrol_5mm" (layer "F.Cu")
     (tstamp 21055f4d-ab03-4c0d-a101-d270fd5d0b54)
-    (at 20.3835 170.942)
+    (at 117.788 30.403)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Low Cost Axial Vactrols")
@@ -608,27 +608,27 @@
     (fp_rect (start -1.143 -1.143) (end 16.256 4.699)
       (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 9624642b-5b34-4d9e-87bd-dc2dd1656a77))
     (dimension (type aligned) (layer "Dwgs.User") (tstamp 4f0b6d6e-1e55-4faf-ab27-6d5993377c4b)
-      (pts (xy 22.9235 170.18) (xy 32.9565 170.18))
+      (pts (xy 120.328 29.641) (xy 130.361 29.641))
       (height -3.81)
-      (gr_text "10.0330 mm" (at 27.94 165.22) (layer "Dwgs.User") (tstamp 4f0b6d6e-1e55-4faf-ab27-6d5993377c4b)
+      (gr_text "10.0330 mm" (at 125.3445 24.681) (layer "Dwgs.User") (tstamp 4f0b6d6e-1e55-4faf-ab27-6d5993377c4b)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
       (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
     )
     (dimension (type aligned) (layer "Dwgs.User") (tstamp 9e2ae5cf-0989-409a-8278-6a868910cdb7)
-      (pts (xy 35.4965 170.942) (xy 35.4965 174.498))
+      (pts (xy 132.901 30.403) (xy 132.901 33.959))
       (height -3.81)
-      (gr_text "3.5560 mm" (at 38.1565 172.72 90) (layer "Dwgs.User") (tstamp 9e2ae5cf-0989-409a-8278-6a868910cdb7)
+      (gr_text "3.5560 mm" (at 135.561 32.181 90) (layer "Dwgs.User") (tstamp 9e2ae5cf-0989-409a-8278-6a868910cdb7)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
       (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
     )
     (dimension (type aligned) (layer "Dwgs.User") (tstamp b33f6fc6-b7f8-407c-8589-9749c1ab8d2c)
-      (pts (xy 22.9235 170.18) (xy 22.9235 175.26))
+      (pts (xy 120.328 29.641) (xy 120.328 34.721))
       (height 4.699)
-      (gr_text "5.0800 mm" (at 17.0745 172.72 90) (layer "Dwgs.User") (tstamp b33f6fc6-b7f8-407c-8589-9749c1ab8d2c)
+      (gr_text "5.0800 mm" (at 114.479 32.181 90) (layer "Dwgs.User") (tstamp b33f6fc6-b7f8-407c-8589-9749c1ab8d2c)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -646,7 +646,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 262db04b-a1fb-4dfa-8494-4d0608bc8347)
-    (at 30.34 151.5)
+    (at 106.705 35.21)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -712,7 +712,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 29f6ab6b-4006-4aa5-b3c2-0b6f711f0008)
-    (at 182.88 24.37)
+    (at 64.77 27.46)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -778,7 +778,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 2bbedde5-e09a-4a67-83e3-49f62238bad1)
-    (at 30.34 155.55)
+    (at 106.705 39.26)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -844,7 +844,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 2d80cbf7-a7fc-4362-81b4-2b4852bbee53)
-    (at 102.5558 150.1219)
+    (at 148.63 46.08)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -910,7 +910,7 @@
 
   (footprint "DIYSynthMNL:C_Rect_L7.0mm_W4.5mm_P5.00mm_BigPads" (layer "F.Cu")
     (tstamp 2e917829-8b05-4b9d-9249-c528761f9433)
-    (at 40.72 142.24)
+    (at 117.895 38.65)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*4.5mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 4.5mm Capacitor")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -968,7 +968,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 2f676213-d3a9-475c-8976-66be31ad196b)
-    (at 102.5558 142.0219)
+    (at 148.63 37.98)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1034,7 +1034,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 31dc3556-e239-44d7-bfd8-10e2205c6d8c)
-    (at 182.88 20.32)
+    (at 64.77 23.41)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1100,7 +1100,7 @@
 
   (footprint "DIYSynthMNL:LED_D5.0mm_BigPads" (layer "F.Cu")
     (tstamp 37a07862-5d6b-44cb-af8f-06a3ccfb7196)
-    (at 121.2758 170.0319)
+    (at 257.06 138.23)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1156,7 +1156,7 @@
 
   (footprint "DIYSynthMNL:DIP-8_W7.62mm_LongPads" (layer "F.Cu")
     (tstamp 3cc0f6c4-44da-4a14-afbf-b0ddbb06032b)
-    (at 41.895 148.6)
+    (at 118.095 19.06)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1232,7 +1232,7 @@
 
   (footprint "DIYSynthMNL:Potentiometer_RV09_BigPads" (layer "F.Cu")
     (tstamp 3cc5a542-bd5e-438a-b167-9954b990f770)
-    (at 113.4992 141.1019)
+    (at 218.9684 124.54)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Potentiometer")
@@ -1295,7 +1295,7 @@
 
   (footprint "DIYSynthMNL:D_4148_BigPads" (layer "F.Cu")
     (tstamp 402eb4d6-dc5d-42cf-b2a3-8c91ca0a5f3c)
-    (at 265.43 152.4)
+    (at 245.157 143.78)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1383,7 +1383,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-102_SPDT" (layer "F.Cu")
     (tstamp 40791064-8923-4f2d-a3b6-3d28ba70f10e)
-    (at 256.54 154.06)
+    (at 264.16 127.38)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Switch, single pole double throw")
@@ -1426,7 +1426,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 4121f838-1a0c-457c-a392-b6073089b2c0)
-    (at 102.5558 146.0719)
+    (at 148.63 42.03)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1492,7 +1492,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 426a62ec-f753-415a-aef2-7c579f076c95)
-    (at 182.88 33.02)
+    (at 64.77 35.56)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1558,7 +1558,7 @@
 
   (footprint "DIYSynthMNL:LED_D5.0mm_BigPads" (layer "F.Cu")
     (tstamp 4da313db-3fd7-4608-981a-5ab625ba5de4)
-    (at 20.32 157.48)
+    (at 234.56 138.23)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1614,7 +1614,7 @@
 
   (footprint "DIYSynthMNL:DIP-8_W7.62mm_LongPads" (layer "F.Cu")
     (tstamp 5384ff9f-cb7a-4c41-9c74-37ead3effd5f)
-    (at 194.295 24.14)
+    (at 76.16 36.2)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1690,7 +1690,7 @@
 
   (footprint "DIYSynthMNL:Handmade_vactrol_5mm" (layer "F.Cu")
     (tstamp 56306b85-4c1a-47bc-b698-8fa74b3c0416)
-    (at 91.9888 165.8769)
+    (at 159.713 29.123)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Low Cost Axial Vactrols")
@@ -1774,27 +1774,27 @@
     (fp_rect (start -1.143 -1.143) (end 16.256 4.699)
       (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 8080178f-3910-4f43-97b5-a401a2caa182))
     (dimension (type aligned) (layer "Dwgs.User") (tstamp 0a9eed80-94b0-4350-8ba3-54f59e6bb7db)
-      (pts (xy 94.5288 165.1149) (xy 94.5288 170.1949))
+      (pts (xy 162.253 28.361) (xy 162.253 33.441))
       (height 4.699)
-      (gr_text "5.0800 mm" (at 88.6798 167.6549 90) (layer "Dwgs.User") (tstamp 0a9eed80-94b0-4350-8ba3-54f59e6bb7db)
+      (gr_text "5.0800 mm" (at 156.404 30.901 90) (layer "Dwgs.User") (tstamp 0a9eed80-94b0-4350-8ba3-54f59e6bb7db)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
       (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
     )
     (dimension (type aligned) (layer "Dwgs.User") (tstamp 17c7f6bb-eb58-46d1-9b39-3c4f19e51c55)
-      (pts (xy 94.5288 165.1149) (xy 104.5618 165.1149))
+      (pts (xy 162.253 28.361) (xy 172.286 28.361))
       (height -3.81)
-      (gr_text "10.0330 mm" (at 99.5453 160.1549) (layer "Dwgs.User") (tstamp 17c7f6bb-eb58-46d1-9b39-3c4f19e51c55)
+      (gr_text "10.0330 mm" (at 167.2695 23.401) (layer "Dwgs.User") (tstamp 17c7f6bb-eb58-46d1-9b39-3c4f19e51c55)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
       (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
     )
     (dimension (type aligned) (layer "Dwgs.User") (tstamp 3e61ff4e-77f3-43d6-a356-7610d4a0b300)
-      (pts (xy 107.1018 165.8769) (xy 107.1018 169.4329))
+      (pts (xy 174.826 29.123) (xy 174.826 32.679))
       (height -3.81)
-      (gr_text "3.5560 mm" (at 109.7618 167.6549 90) (layer "Dwgs.User") (tstamp 3e61ff4e-77f3-43d6-a356-7610d4a0b300)
+      (gr_text "3.5560 mm" (at 177.486 30.901 90) (layer "Dwgs.User") (tstamp 3e61ff4e-77f3-43d6-a356-7610d4a0b300)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -1812,7 +1812,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 61d89eee-f2d2-477d-8fd8-ab361cab5863)
-    (at 91.3458 151.2419)
+    (at 148.63 25.83)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1878,7 +1878,7 @@
 
   (footprint "DIYSynthMNL:LED_D5.0mm_BigPads" (layer "F.Cu")
     (tstamp 63eb9f8d-611a-4869-b590-1403a8f11789)
-    (at 259.2 137.16)
+    (at 242.06 138.23)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1934,7 +1934,7 @@
 
   (footprint "DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads" (layer "F.Cu")
     (tstamp 700f082b-94bf-4a66-bb5a-40f31ee51768)
-    (at 195.58 20.32)
+    (at 64.75 43.41)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -1992,7 +1992,7 @@
 
   (footprint "DIYSynthMNL:AudioJack_3.5mm_long_pads" (layer "F.Cu")
     (tstamp 71863dcd-bb32-4192-b8e2-d4a81e9305d4)
-    (at 35.43 49.56)
+    (at 222.8 106.6)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")
@@ -2075,7 +2075,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 7661bb63-77bc-4cf9-b71d-f25796e88353)
-    (at 91.3458 155.2919)
+    (at 148.63 29.88)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -2141,7 +2141,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 78a402ad-fbd7-4a5a-8e38-a115af90ffbd)
-    (at 182.88 16.27)
+    (at 64.77 19.36)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -2207,7 +2207,7 @@
 
   (footprint "DIYSynthMNL:CP_Radial_D4.0mm_P1.50mm" (layer "F.Cu")
     (tstamp 80ec7466-e9ea-40e1-8512-e82cd312f366)
-    (at 31.86 96.385)
+    (at 31.679801 39.53)
     (descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -2441,7 +2441,7 @@
 
   (footprint "DIYSynthMNL:Audio_transformer_TL016-R" (layer "F.Cu")
     (tstamp 84fe52f0-1815-4037-8480-f974e866d955)
-    (at 227.38715 24.384)
+    (at 83.4984 25.734)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "0.2-210MHz 1:3 RF Transformer, Unbalanced to Balanced Center Tap at Primary/Secondary, CD636")
@@ -2799,7 +2799,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 866fe62a-579e-4f12-bb69-a7f910145d74)
-    (at 91.3458 147.1919)
+    (at 148.63 21.78)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -2865,7 +2865,7 @@
 
   (footprint "DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads" (layer "F.Cu")
     (tstamp 880da006-713b-471e-af2a-1c16997c2805)
-    (at 20.4 180.34)
+    (at 126.445 37.4)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -2923,7 +2923,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-202_DPDT" (layer "F.Cu")
     (tstamp 8cce0fd7-b3d9-4519-b58e-bfb2948b7f1e)
-    (at 50.94 169.8)
+    (at 252.81 127.38)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Switch, dual pole double throw, separate symbols")
@@ -2972,7 +2972,7 @@
 
   (footprint "DIYSynthMNL:CP_Radial_D4.0mm_P1.50mm" (layer "F.Cu")
     (tstamp 91002d5c-8aaa-4358-a775-a1293db0c450)
-    (at 31.86 101.935)
+    (at 31.679801 45.08)
     (descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -3206,7 +3206,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 925125c5-78df-464a-9cee-65c5e693cfda)
-    (at 30.34 147.45)
+    (at 106.705 31.16)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -3272,7 +3272,7 @@
 
   (footprint "DIYSynthMNL:DIP-8_W7.62mm_LongPads" (layer "F.Cu")
     (tstamp 9573f00e-9a4a-437b-a78a-cf93dc5ff9ec)
-    (at 102.8608 175.7719)
+    (at 171.62 17.78)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -3348,7 +3348,7 @@
 
   (footprint "benjiaomodular:ToggleSwitch_MTS-202_DPDT" (layer "F.Cu")
     (tstamp 96e479ac-8bb3-40a1-87dc-47c7f1c5abff)
-    (at 210.96 22.86)
+    (at 238.96 127.38)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Switch, dual pole double throw, separate symbols")
@@ -3397,7 +3397,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp 9e648e30-1acc-4f3c-bf87-b07065e0291a)
-    (at 182.88 27.94)
+    (at 64.77 31.51)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -3463,7 +3463,7 @@
 
   (footprint "DIYSynthMNL:LED_D5.0mm_BigPads" (layer "F.Cu")
     (tstamp a3e0f7b7-87cc-43ea-a55f-19063769bc27)
-    (at 266.7 137.16)
+    (at 249.56 138.23)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -3519,7 +3519,7 @@
 
   (footprint "DIYSynthMNL:AudioJack_3.5mm_long_pads" (layer "F.Cu")
     (tstamp a6e58c03-b68d-4a70-b09d-d9d1d62f008e)
-    (at 68.58 49.56)
+    (at 255.95 106.6)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")
@@ -3602,7 +3602,7 @@
 
   (footprint "DIYSynthMNL:AudioJack_3.5mm_long_pads" (layer "F.Cu")
     (tstamp aecdd06d-4fb5-48a4-9ea6-eb3bb2c905a8)
-    (at 57.53 49.56)
+    (at 244.9 106.6)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")
@@ -3685,7 +3685,7 @@
 
   (footprint "DIYSynthMNL:Potentiometer_Bourns_3296W_Vertical_BigPads" (layer "F.Cu")
     (tstamp b2a0b7ce-2e47-4a4d-a780-da173bc54d58)
-    (at 123.0258 177.0319)
+    (at 240.21 145.23)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -3751,7 +3751,7 @@
 
   (footprint "DIYSynthMNL:Potentiometer_RV09_BigPads" (layer "F.Cu")
     (tstamp b47e0ebe-6015-4812-8d5b-f35e0e701237)
-    (at 113.6642 154.9773)
+    (at 218.9684 138.4154)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Potentiometer")
@@ -3814,7 +3814,7 @@
 
   (footprint "DIYSynthMNL:Eurorack_power_jst_3P" (layer "F.Cu")
     (tstamp ba769231-5b16-48f3-bf4b-d496a6fa74fa)
-    (at 20.4 83.82)
+    (at 33.075 22.65)
     (descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST XH vertical")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -3928,7 +3928,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp bc5465ea-30ab-4fc6-b4c1-44746fb50675)
-    (at 19.13 151.37)
+    (at 106.705 23.06)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -3994,7 +3994,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp cf03e3e7-6d0d-495d-b6f9-5af46e7604bf)
-    (at 102.5558 137.9719)
+    (at 148.63 33.93)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4060,7 +4060,7 @@
 
   (footprint "DIYSynthMNL:D_4148_BigPads" (layer "F.Cu")
     (tstamp d0f6cc6b-6254-4593-9613-0fdac1093bf9)
-    (at 265.43 155.95)
+    (at 245.157 147.33)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4148,7 +4148,7 @@
 
   (footprint "DIYSynthMNL:Potentiometer_Bourns_3296W_Vertical_BigPads" (layer "F.Cu")
     (tstamp dc7967fd-457c-4643-9233-9921fa064506)
-    (at 123.0258 183.4819)
+    (at 240.21 151.68)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4214,7 +4214,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp dcca9ebd-4183-46cd-b4ab-9919509fc395)
-    (at 19.13 147.32)
+    (at 106.705 19.01)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4280,7 +4280,7 @@
 
   (footprint "DIYSynthMNL:D_DO-41_SOD81_P7.62mm_Horizontal_BigPads" (layer "F.Cu")
     (tstamp dee3de60-cca7-4b27-aabd-15979b307a52)
-    (at 28.935 113.09)
+    (at 31.475 34.63)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4368,7 +4368,7 @@
 
   (footprint "DIYSynthMNL:D_DO-41_SOD81_P7.62mm_Horizontal_BigPads" (layer "F.Cu")
     (tstamp dfd5e488-2f72-43a1-ab28-8dc956612ef3)
-    (at 28.935 108.84)
+    (at 31.475 30.38)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4456,7 +4456,7 @@
 
   (footprint "DIYSynthMNL:DIP-8_W7.62mm_LongPads" (layer "F.Cu")
     (tstamp ea6d5fa8-c5fd-4510-9cd1-e54c46076faa)
-    (at 91.2608 175.7719)
+    (at 160.02 17.78)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4532,7 +4532,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp f06bdc83-a5ce-4724-a3fe-916f70951f2a)
-    (at 102.5558 154.1719)
+    (at 148.63 50.13)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4598,7 +4598,7 @@
 
   (footprint "DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm" (layer "F.Cu")
     (tstamp f9461ea5-5b50-4cf1-b23d-0f587a6a8949)
-    (at 91.3458 143.1419)
+    (at 148.63 17.73)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "Multi saturation module.kicad_sch")
@@ -4664,7 +4664,7 @@
 
   (footprint "DIYSynthMNL:AudioJack_3.5mm_long_pads" (layer "F.Cu")
     (tstamp ff7ed8e6-6166-4e6a-ad18-06f7df4e531c)
-    (at 46.48 49.56)
+    (at 233.85 106.6)
     (property "Sheetfile" "Multi saturation module.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)")
