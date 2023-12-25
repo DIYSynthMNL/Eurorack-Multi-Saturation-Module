@@ -441,7 +441,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.4,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -460,7 +460,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.9,
-        "via_drill": 0.5,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -477,7 +477,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.9,
-        "via_drill": 0.5,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -494,7 +494,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.9,
-        "via_drill": 0.5,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -564,6 +564,14 @@
       {
         "netclass": "long_signal",
         "pattern": "Clipping_diodes"
+      },
+      {
+        "netclass": "+12v",
+        "pattern": "+12VA"
+      },
+      {
+        "netclass": "-12v",
+        "pattern": "-12VA"
       }
     ]
   },
