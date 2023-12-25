@@ -572,6 +572,10 @@
       {
         "netclass": "-12v",
         "pattern": "-12VA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "D*"
       }
     ]
   },
