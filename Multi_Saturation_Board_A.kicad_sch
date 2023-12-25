@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 9428fe02-e1c3-480c-aa57-fddb58a1d291)
+  (uuid 351c7b41-0241-41aa-9bde-8742f4fde103)
 
   (paper "A4")
 
@@ -2082,6 +2082,19 @@
     (uuid fef5e15e-94d5-4b63-85a4-36a497c66ef9)
   )
 
+  (label "GND_IN" (at 34.925 178.435 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0b2b122c-24f5-4b25-a14a-b8bdc8170d88)
+  )
+  (label "+12V_IN" (at 34.29 170.815 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 151ed37e-5a89-4d1e-8510-e8208a4aec40)
+  )
+  (label "-12V_IN" (at 33.02 186.055 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 948680aa-a178-43d2-83e4-eee881ec5092)
+  )
+
   (global_label "Audio_in" (shape output) (at 229.235 133.985 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0312c57a-c44c-4436-95f5-482555c5f9d9)
@@ -3406,12 +3419,12 @@
   )
 
   (symbol (lib_id "power:GND") (at 38.1 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f938117-522b-4137-be4d-40c24cbed1d0)
     (property "Reference" "#PWR026" (at 38.1 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 38.1 183.515 0)
+    (property "Value" "GND" (at 38.1 182.245 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 38.1 178.435 0)
