@@ -1,4 +1,4 @@
-22555535550127426
+22565756683185576
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53066,6 +53066,48 @@ LED diameter 5.0mm 2 pins
 0
 2
 2
+DIYSynthMNL
+MountingHole_M3
+
+
+0
+1
+0
+DIYSynthMNL
+PanelHole_AudioJack_3.5mm
+
+
+0
+0
+0
+DIYSynthMNL
+PanelHole_Bourns_3296W_TrimPot
+Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf
+Potentiometer vertical Bourns 3296W
+0
+0
+0
+DIYSynthMNL
+PanelHole_Potentiometer_RV09
+
+
+0
+0
+0
+DIYSynthMNL
+PanelHole_ToggleSwitch_MTS-101
+
+
+0
+0
+0
+DIYSynthMNL
+PanelHole_ToggleSwitch_MTS-202
+
+
+0
+0
+0
 DIYSynthMNL
 Panel_8HP
 

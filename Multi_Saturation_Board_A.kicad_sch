@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 351c7b41-0241-41aa-9bde-8742f4fde103)
+  (uuid 5c2e0148-2c43-4ed0-86a3-ab49040cf8e4)
 
   (paper "A4")
 
@@ -3546,7 +3546,7 @@
     (property "Value" "22uF" (at 89.535 182.626 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DIYSynthMNL:CP_Radial_D4.0mm_P1.50mm" (at 86.6902 186.055 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 86.6902 186.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.725 182.245 0)
@@ -4827,7 +4827,7 @@
     (property "Value" "22uF" (at 89.535 175.006 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DIYSynthMNL:CP_Radial_D4.0mm_P1.50mm" (at 86.6902 178.435 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 86.6902 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.725 174.625 0)

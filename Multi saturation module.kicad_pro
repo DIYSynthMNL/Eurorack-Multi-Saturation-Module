@@ -123,7 +123,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.25,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.65,
         "solder_mask_clearance": 0.0,
@@ -175,6 +175,7 @@
         0.0,
         0.15,
         0.2,
+        0.25,
         0.3,
         0.5,
         1.0,
@@ -458,8 +459,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.9,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
@@ -475,8 +476,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.9,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
@@ -492,6 +493,23 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
+        "via_diameter": 0.9,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "long_signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -522,6 +540,30 @@
       {
         "netclass": "-12v",
         "pattern": "/Board_A/-12V_IN"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND1"
+      },
+      {
+        "netclass": "long_signal",
+        "pattern": "Wet"
+      },
+      {
+        "netclass": "long_signal",
+        "pattern": "RV2_3"
+      },
+      {
+        "netclass": "long_signal",
+        "pattern": "Dry"
+      },
+      {
+        "netclass": "long_signal",
+        "pattern": "RV3_3"
+      },
+      {
+        "netclass": "long_signal",
+        "pattern": "Clipping_diodes"
       }
     ]
   },
