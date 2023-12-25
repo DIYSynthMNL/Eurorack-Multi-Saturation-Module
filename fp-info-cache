@@ -1,4 +1,4 @@
-22545314697602971
+22555535550127426
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53032,6 +53032,13 @@ Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diamet
 2
 2
 DIYSynthMNL
+Eurorack_power_jst_3P
+JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
+0
+3
+3
+DIYSynthMNL
 Handmade_vactrol_5mm
 
 
@@ -53046,12 +53053,26 @@ Through hole vertical IDC box header THT 2x05 2.54mm double row
 10
 10
 DIYSynthMNL
+JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
+JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
+0
+3
+3
+DIYSynthMNL
 LED_D5.0mm_BigPads
 LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
 LED diameter 5.0mm 2 pins
 0
 2
 2
+DIYSynthMNL
+Panel_8HP
+
+
+0
+2
+0
 DIYSynthMNL
 PerkinElmer_VTL5C_BigPads
 Axial Vactrol (http://www.qsl.net/wa1ion/vactrol/vactrol.pdf)
@@ -53080,6 +53101,27 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W len
 0
 2
 2
+DIYSynthMNL
+ToggleSwitch_MTS-101_SPST
+
+
+0
+2
+2
+DIYSynthMNL
+ToggleSwitch_MTS-102_SPDT
+
+
+0
+3
+3
+DIYSynthMNL
+ToggleSwitch_MTS-202_DPDT
+
+
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
