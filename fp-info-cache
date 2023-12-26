@@ -1,4 +1,4 @@
-22567461271904737
+22569165240871195
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53052,6 +53052,13 @@ Through hole vertical IDC box header THT 2x05 2.54mm double row
 0
 10
 10
+DIYSynthMNL
+IDC-Header_2x08_P2.54mm_Vertical
+Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x08 2.54mm double row
+0
+16
+16
 DIYSynthMNL
 JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
 JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator

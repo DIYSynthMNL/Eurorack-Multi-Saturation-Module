@@ -421,7 +421,9 @@
       "DIYSynthMNL",
       "benjiaomodular"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "DIYSynthMNL"
+    ]
   },
   "meta": {
     "filename": "Multi saturation module.kicad_pro",
