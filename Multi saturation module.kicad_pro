@@ -587,7 +587,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Multi saturation module.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
