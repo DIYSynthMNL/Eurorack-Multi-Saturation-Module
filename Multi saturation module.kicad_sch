@@ -6,8 +6,8 @@
 
   (title_block
     (title "Eurorack Multi Saturation Module")
-    (date "2023-12-24")
-    (rev "0.5")
+    (date "2023-12-28")
+    (rev "0.6")
     (company "DIYSynthManila")
     (comment 1 "This version is a prototype.")
   )
@@ -16,14 +16,14 @@
   )
 
 
-  (sheet (at 240.665 22.225) (size 23.495 5.08) (fields_autoplaced)
+  (sheet (at 131.445 89.535) (size 23.495 5.08) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 3a05c5ff-a267-4ce4-8e92-6d5107775c32)
-    (property "Sheetname" "Board_A" (at 240.665 21.5134 0)
+    (property "Sheetname" "Board_A" (at 131.445 88.8234 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Multi_Saturation_Board_A.kicad_sch" (at 240.665 27.8896 0)
+    (property "Sheetfile" "Multi_Saturation_Board_A.kicad_sch" (at 131.445 95.1996 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -33,14 +33,14 @@
     )
   )
 
-  (sheet (at 240.665 32.385) (size 23.495 4.445) (fields_autoplaced)
+  (sheet (at 131.445 99.695) (size 23.495 4.445) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid c30b6378-be73-4bdd-8ae7-082c1f6babb1)
-    (property "Sheetname" "Board_B" (at 240.665 31.6734 0)
+    (property "Sheetname" "Board_B" (at 131.445 98.9834 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Multi_Saturation_Board_B.kicad_sch" (at 240.665 37.4146 0)
+    (property "Sheetfile" "Multi_Saturation_Board_B.kicad_sch" (at 131.445 104.7246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
