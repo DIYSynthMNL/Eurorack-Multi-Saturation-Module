@@ -1,4 +1,4 @@
-22569165582414158
+22572573320834779
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53081,12 +53081,26 @@ MountingHole_M3_Euro
 1
 0
 DIYSynthMNL
+MountingHole_M3_Euro_1
+
+
+0
+1
+0
+DIYSynthMNL
 MountingHole_M3_Standoff
 
 
 0
 1
 0
+DIYSynthMNL
+MountingHole_M3_Standoff_Pad
+
+
+0
+1
+1
 DIYSynthMNL
 PanelHole_AudioJack_3.5mm
 
