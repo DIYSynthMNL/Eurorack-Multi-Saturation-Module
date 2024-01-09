@@ -1,8 +1,16 @@
 # Synth Distortion / Saturation Module Design
 
+## Revision Summary
+
+- Schematic Revision 0.5 - an easier to read schematic - please note that there are some errors in this. The Eurorack power connector pins are backwards. Use this as a reference for the circuit design.
+- Schematic Revision 0.6 - multiboard layout (LATEST)
+- PCB Revision 0.1 - unverified (Sent to PCB manufacturing)
+
 ## Some background.
 
 I’m designing a distortion/saturation modular synth module using different methods of distorting audio signals.
+
+This module is a combination of transformer, opto, and clipping distortion/saturation.
 
 ## Source of inspiration
 
@@ -20,14 +28,12 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
 
 ### Other sources
 
-- Eliot Sound Products [https://sound-au.com](https://sound-au.com/) - is a website full of audio articles that I’ve learned from
+- Vactrol wet/dry mix from music thing modular’s spring reverb module
+    - [https://www.musicthing.co.uk/Spring-Reverb/](https://www.musicthing.co.uk/Spring-Reverb/)
+- Eliot Sound Products [https://sound-au.com](https://sound-au.com/) - is a website full of audio articles that I’ve learned from. Go search for these articles, they’re great!
     - Designing With Op Amps
     - Audio Transformers
     - Soft Clipping
-- Automatic gain amplifier
-    - [Vactrol auto gain op amp](https://www.youtube.com/watch?v=Cg2cLocjgGQ)
-- Vactrol wet/dry mix from music thing modular’s spring reverb module
-    - [https://www.musicthing.co.uk/Spring-Reverb/](https://www.musicthing.co.uk/Spring-Reverb/)
 
 # Circuit Design
 
@@ -45,6 +51,8 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
     
     A buffer would suffice as the input stage. It would be nice to give the transformer more voltage but we wouldn’t be able to amplify the 10Vpp input to 12Vpp unless we use a +/- 15V supply. 
     
+    I chose to use an NE5532 Op Amp because I believe it can drive outputs higher than TL07x.
+    
 2. Transformer Saturation
     
     The transformer distortion works by oversaturating the transformer’s core past what it can handle. The transformer I used would normally be used in line audio signals. A 600:600 ohm transformer. We’re using Eurorack voltage which is around 10vpp so that would oversaturate the transformer.
@@ -54,6 +62,8 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
 3. Vactrol Opto Electronic Saturation
     
     The transformer’s output was low, I needed to add a non-inverting op amp with gain to bring the levels back to 10vpp for this stage.
+    
+    I got this circuit from DIYRe’s Colourupter colour module which uses a Vactrol to clip the signal.
     
     ![Untitled](readme_images/Untitled%204.png)
     
@@ -70,29 +80,43 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
     ![Untitled](readme_images/Untitled%206.png)
     
 
-## Some circuit housekeeping todo
+## Schematic Revisions:
 
-- Reverse polarity protection
-- I/O protection
-- Unused opamps
-- Power filter caps
-- Audio decoupling if necessary
-
-Version Todo and Notes:
-
-- Version 0.2
+- Revision 0.2
     - TODO
         - [x]  Replace R5 with trimmer
         - [x]  Test wet/dry mix on breadboard
         - [x]  Input buffer biasing resistor
     - Notes
         - The transformer saturation is very subtle on a mono synth
-- Version 0.3
+- Revision 0.3
     - TODO
     - [x]  Add gain trimmer to dry signal at U2B
     - [x]  Scrap the single saturation and add diode clipping and the Colourupter, the transformer alone is too subtle
     - [x]  Test output gain stage
-- Version 0.4
+- Revision 0.4
     - [x]  Scrap output auto gain
     - [x]  add opto saturation
     - [x]  add soft clipping diodes
+- Revision 0.5
+    - [x]  Multiboard layout
+
+# PCB Design
+
+![Dec 27, 2023 - Almost satisfied  with the board design, rev0.1](readme_images/Untitled%207.png)
+
+Dec 27, 2023 - Almost satisfied  with the board design, rev0.1
+
+![Rev 0.1 in black](readme_images/Untitled%208.png)
+
+Rev 0.1 in black
+
+## PCB revisions:
+
+- Revision 0.1
+    - [x]  Ground plane vias
+    - [x]  Front panel ground plane
+    - [x]  Double check hole sizes
+        - [x]  Trimmer
+    - [x]  Double check via sizes
+    - [x]  Round tracks

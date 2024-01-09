@@ -1,4 +1,4 @@
-22545314697602971
+22579388817826586
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53032,6 +53032,13 @@ Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diamet
 2
 2
 DIYSynthMNL
+Eurorack_power_jst_3P
+JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
+0
+3
+3
+DIYSynthMNL
 Handmade_vactrol_5mm
 
 
@@ -53046,12 +53053,96 @@ Through hole vertical IDC box header THT 2x05 2.54mm double row
 10
 10
 DIYSynthMNL
+IDC-Header_2x08_P2.54mm_Vertical
+Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x08 2.54mm double row
+0
+16
+16
+DIYSynthMNL
+JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
+JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
+0
+3
+3
+DIYSynthMNL
 LED_D5.0mm_BigPads
 LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
 LED diameter 5.0mm 2 pins
 0
 2
 2
+DIYSynthMNL
+MountingHole_M3_Euro
+
+
+0
+1
+0
+DIYSynthMNL
+MountingHole_M3_Euro_1
+
+
+0
+1
+0
+DIYSynthMNL
+MountingHole_M3_Standoff
+
+
+0
+1
+0
+DIYSynthMNL
+MountingHole_M3_Standoff_Pad
+
+
+0
+1
+1
+DIYSynthMNL
+PanelHole_AudioJack_3.5mm
+
+
+0
+0
+0
+DIYSynthMNL
+PanelHole_Bourns_3296W_TrimPot
+Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf
+Potentiometer vertical Bourns 3296W
+0
+0
+0
+DIYSynthMNL
+PanelHole_Potentiometer_RV09
+
+
+0
+0
+0
+DIYSynthMNL
+PanelHole_ToggleSwitch_MTS-101
+
+
+0
+0
+0
+DIYSynthMNL
+PanelHole_ToggleSwitch_MTS-202
+
+
+0
+0
+0
+DIYSynthMNL
+Panel_8HP
+
+
+0
+2
+0
 DIYSynthMNL
 PerkinElmer_VTL5C_BigPads
 Axial Vactrol (http://www.qsl.net/wa1ion/vactrol/vactrol.pdf)
@@ -53080,6 +53171,27 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W len
 0
 2
 2
+DIYSynthMNL
+ToggleSwitch_MTS-101_SPST
+
+
+0
+2
+2
+DIYSynthMNL
+ToggleSwitch_MTS-102_SPDT
+
+
+0
+3
+3
+DIYSynthMNL
+ToggleSwitch_MTS-202_DPDT
+
+
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -66401,6 +66513,34 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCM_kikit
+Board
+Mark board for extraction
+
+0
+0
+0
+PCM_kikit
+Fiducial
+Circular Fiducial
+fiducial
+0
+1
+0
+PCM_kikit
+NPTH
+
+
+0
+0
+0
+PCM_kikit
+Tab
+A symbol representing annotation for tab placement
+
+0
+0
+0
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:lc="https://librecad.org" xmlns:xlink="http://www.w3.org/1999/xlink" width="40mm" height="128.5mm" viewBox="0 0 40 128.5">
+    <g lc:layername="0" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="0.1"/>
+    <g lc:layername="Board Outline" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="0.1">
+        <path d="M0,128.5 L40,128.5 L40,0 L0,0 L0,128.5 Z "/>
+    </g>
+    <g lc:layername="Dimensions" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="0.1"/>
+    <g lc:layername="Holes" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="0.1">
+        <circle cx="7.5" cy="125.5" r="1.7"/>
+        <circle cx="7.5" cy="3" r="1.7"/>
+        <line x1="0" y1="0" x2="20" y2="0"/>
+        <circle cx="20" cy="110.5" r="3.5"/>
+        <circle cx="6" cy="110.5" r="3.5"/>
+        <circle cx="34" cy="110.5" r="3.5"/>
+        <circle cx="34" cy="95.6" r="3.5"/>
+        <path d="M17,85.5 L23,85.5 L23,91.5 L17,91.5 L17,85.5 Z "/>
+        <circle cx="5" cy="91.6" r="1.4"/>
+        <circle cx="13" cy="91.6" r="1.4"/>
+        <circle cx="30" cy="75.8" r="7.5"/>
+        <circle cx="10" cy="75.8" r="7.5"/>
+        <path d="M6,39.5 L14,39.5 L14,47.5 L6,47.5 L6,39.5 Z "/>
+        <circle cx="10" cy="75.8" r="6.35"/>
+        <circle cx="30" cy="75.8" r="6.35"/>
+        <circle cx="20" cy="26.5" r="3.75"/>
+        <circle cx="20" cy="43.5" r="3.75"/>
+        <circle cx="20" cy="60.5" r="3.75"/>
+        <line x1="12.6" y1="12.5" x2="27.4" y2="12.5"/>
+        <line x1="27.4" y1="20.25" x2="12.6" y2="20.25"/>
+        <line x1="27.9" y1="13" x2="27.9" y2="19.75"/>
+        <line x1="12.1" y1="13" x2="12.1" y2="19.75"/>
+        <line x1="27.4" y1="20.25" x2="27.9" y2="20.25"/>
+        <line x1="27.9" y1="20.25" x2="27.9" y2="19.75"/>
+        <path d="M27.9,20.25 L12.1,20.25 L12.1,12.5 L27.9,12.5 L27.9,20.25 Z "/>
+    </g>
+</svg>
