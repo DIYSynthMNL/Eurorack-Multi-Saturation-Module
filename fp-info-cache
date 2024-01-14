@@ -1,4 +1,4 @@
-22579388817826586
+22586222159326839
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52990,6 +52990,20 @@ CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor
 2
 2
 DIYSynthMNL
+CP_Radial_D5.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+DIYSynthMNL
+CP_Radial_D8.0mm_P3.80mm
+CP, Radial series, Radial, pin pitch=3.80mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.80mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+DIYSynthMNL
 C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads
 C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor
 C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor
@@ -53010,6 +53024,20 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
 0
 8
 8
+DIYSynthMNL
+DIP-14_W7.62mm_LongPads
+14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+14
+14
+DIYSynthMNL
+DIP-18_W7.62mm_LongPads
+18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+18
+18
 DIYSynthMNL
 D_4148_BigPads
 Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
@@ -53059,13 +53087,6 @@ Through hole vertical IDC box header THT 2x08 2.54mm double row
 0
 16
 16
-DIYSynthMNL
-JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical
-JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
-connector JST XH vertical
-0
-3
-3
 DIYSynthMNL
 LED_D5.0mm_BigPads
 LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
@@ -53171,6 +53192,13 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W len
 0
 2
 2
+DIYSynthMNL
+TerminalBlock_MetzConnect_Type101_RT01603HBWC_1x03_P5.08mm_Horizontal
+terminal block Metz Connect Type101_RT01603HBWC, 3 pins, pitch 5.08mm, size 15.2x8mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_311011_RT016xxHBWC_OFF-022771S.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect
+THT terminal block Metz Connect Type101_RT01603HBWC pitch 5.08mm size 15.2x8mm^2 drill 1.3mm pad 2.5mm
+0
+3
+3
 DIYSynthMNL
 ToggleSwitch_MTS-101_SPST
 
