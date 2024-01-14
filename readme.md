@@ -3,8 +3,8 @@
 ## Revision Summary
 
 - Schematic Revision 0.5 - an easier to read schematic - please note that there are some errors in this. The Eurorack power connector pins are backwards. Use this as a reference for the circuit design.
-- Schematic Revision 0.6 - multiboard layout (LATEST)
-- PCB Revision 0.1 - unverified (Sent to PCB manufacturing)
+- Schematic Revision 0.6 - multiboard layout (LATEST - working on circuit revisions)
+- PCB Revision 0.1 - revising in progress (working on rev 0.2)
 
 ## Some background.
 
@@ -36,6 +36,8 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
     - Soft Clipping
 
 # Circuit Design
+
+- I will update this section soon.
 
 ![Untitled](readme_images/Untitled.png)
 
@@ -100,6 +102,8 @@ I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces D
     - [x]  add soft clipping diodes
 - Revision 0.5
     - [x]  Multiboard layout
+- Revision 0.6
+    - [ ]  Fix amplitude difference on opto sat stage output.
 
 # PCB Design
 
@@ -113,10 +117,26 @@ Rev 0.1 in black
 
 ## PCB revisions:
 
-- Revision 0.1
+- Todo for Revision 0.1
     - [x]  Ground plane vias
     - [x]  Front panel ground plane
     - [x]  Double check hole sizes
         - [x]  Trimmer
     - [x]  Double check via sizes
     - [x]  Round tracks
+- Todo for Revision 0.2
+    - Front panel
+        - [x]  Add keep out zone for led window zone fills for FCU and BCU - I had to Dremel it out for the revision 0.1 front panel board
+        - [x]  Enlarge switch holes for Dailywell switches
+        - [x]  Enlarge trimmer holes
+        - [x]  Change tilt knob silkscreen to “mix”
+        - [ ]  Fix amplitude difference on opto sat output. The opto stage attenuates the signal from the transformer too much
+- Revision 0.1 Board test notes
+    - Voltage tests
+        - Power rails after reverse protection diode I used a 1N4007 diode
+            - V+ reads about 10V
+            - V- reads about 11V
+            - I might need to change the reverse protection diodes to Schottkys
+    - Music thing modular’s cv wet dry circuit has an optimal input of 0-5V control voltages. If 10Vpp was used, the middle of the cv level pot is zero. Fully clockwise, the cv would be in phase. Fully counter clockwise, the cv is inverted. This is simulated in falstad, the file is included in the falstad folder.
+    - Gain trim is finicky. Turning on the Opto would attenuate the signal. Maybe this is caused by the variety of the vactrol, I think not all vactrols are equal. Opto gain/amplitude trim might be required. It might be a simple resistor value change within the circuit.
+    - LEDs are not as bright as I want them.
