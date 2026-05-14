@@ -1,0 +1,7 @@
+# Empty placeholder so the photos/ folder exists in the repo.
+# Drop assembled-module photos here:
+#   front.jpg          - finished front panel / in-rack
+#   board-top.jpg      - assembled PCB(s) top view
+#   board-bottom.jpg   - solder side
+#   breadboard.jpg     - optional: prototype/breadboard testing
+# Keep each under ~500 KB and ~1920px wide.
