@@ -143,18 +143,26 @@ Rev 0.1 in black
 
 ## Build status
 
-What's available for builders, and what's still on the TODO list:
+What's ready for builders today, and what's still on the TODO list:
 
-- [x] Schematic PDF (latest Rev 0.6) — [Single saturation module - Multiboard Schematic - rev0.6.pdf](Schematic%20PDFs/Single%20saturation%20module%20-%20Multiboard%20Schematic%20-%20rev0.6.pdf)
-- [x] KiCad source files — [kicad/](kicad/)
-- [ ] Gerber files for PCB fabrication — *not yet exported — generate from kicad/ before sending to a fab*
-- [x] Bill of materials (BOM) — [ibom.html](BOMs/ibom.html)
-- [ ] 3D-printed front panel STL — *not yet designed*
-- [x] Front panel graphics (SVG/PDF for fab-made panels) — [Multi saturation module-brd.svg](Front%20panel%20graphics/Multi%20saturation%20module-brd.svg)
-- [ ] Photos of the assembled module — *not yet — coming soon*
-- [ ] Demo video — *not yet recorded*
-- [ ] Build / assembly instructions — *not yet written*
-- [ ] Calibration / tuning notes — *not yet written*
+**Production assets** (what you need to actually fabricate and assemble a final unit)
+
+- [x] Schematic — Rev 0.6 ([Single saturation module - Multiboard Schematic - rev0.6.pdf](Schematic%20PDFs/Single%20saturation%20module%20-%20Multiboard%20Schematic%20-%20rev0.6.pdf))
+- [x] PCB layout — rev 0.1 separated for fab in `kicad/Separate boards/rev 0.1/`; rev 0.2 fixes pending (see PCB revisions in readme)
+- [ ] Gerber files for fabrication — none yet
+- [x] BOM — [ibom.html](BOMs/ibom.html)
+- [x] Final front panel (SVG/PDF for fab) — [MultiSaturation_FPANEL_FOR_KICAD_IMPORT.svg](Front%20panel%20graphics/MultiSaturation_FPANEL_FOR_KICAD_IMPORT.svg)
 - [x] License — [LICENSE](LICENSE)
 
-If you want to help fill a gap (build photos, gerbers, an assembly guide), open an issue or PR.
+**Prototype assets** (for breadboard / perfboard / 3D-printed-panel builds before final PCB)
+
+- [ ] 3D-printed prototype panel STL — none yet
+
+**Documentation**
+
+- [ ] Photos of the assembled module — none yet
+- [ ] Demo video — none yet
+- [ ] Build / assembly instructions — none yet
+- [ ] Calibration / tuning notes — none yet
+
+Want to help fill a gap (build photos, gerbers, an assembly guide)? Open an issue or PR.
