@@ -16,6 +16,12 @@ This module is a combination of transformer, opto, and clipping distortion/satur
 
 ## Source of inspiration
 
+Local archived copies of the borrowed-source schematics live in [`references/`](references/) so this repo stays useful if the upstream links die. Originals from [diyrecordingequipment.com](https://www.diyrecordingequipment.com/pages/the-colour-format).
+
+- **CTX Cinemag Transformer Colour mkII** — [local copy](references/DIYRE-CTX-Cinemag-mkII-schematic.pdf) · [upstream](https://cdn.shopify.com/s/files/1/0698/2265/files/CTX_mkII_Schematic.pdf?375)
+- **Colourphone (v1.3)** — [local copy](references/DIYRE-Colourphone-schematic-v1.3.pdf) · [upstream](https://cdn.shopify.com/s/files/1/0698/2265/files/XQP_Colourphone_Schematic_1.3.pdf?8973696934571457842)
+- **Colourupter (v1.7)** — [local copy](references/DIYRE-Colourupter-schematic-v1.7.pdf) · [upstream](https://cdn.shopify.com/s/files/1/0698/2265/files/XQP_Colourupter_Schematic_1.7.pdf?13355729951948932441)
+
 ### DIYRe’s Colour Modules
 
 I got some ideas from DIYRe's Colour modules. DIYRe is a company that produces DIY kits for professional audio recording equipment. Some of their product offerings include recording studio rackmount effects.
