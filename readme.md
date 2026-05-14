@@ -140,3 +140,21 @@ Rev 0.1 in black
     - Music thing modular’s cv wet dry circuit has an optimal input of 0-5V control voltages. If 10Vpp was used, the middle of the cv level pot is zero. Fully clockwise, the cv would be in phase. Fully counter clockwise, the cv is inverted. This is simulated in falstad, the file is included in the falstad folder.
     - Gain trim is finicky. Turning on the Opto would attenuate the signal. Maybe this is caused by the variety of the vactrol, I think not all vactrols are equal. Opto gain/amplitude trim might be required. It might be a simple resistor value change within the circuit.
     - LEDs are not as bright as I want them.
+
+## Build status
+
+What's available for builders, and what's still on the TODO list:
+
+- [x] Schematic PDF (latest Rev 0.6) — [Single saturation module - Multiboard Schematic - rev0.6.pdf](schematic%20pdfs/Single%20saturation%20module%20-%20Multiboard%20Schematic%20-%20rev0.6.pdf)
+- [x] KiCad source files — [kicad/](kicad/)
+- [ ] Gerber files for PCB fabrication — *not yet exported — generate from kicad/ before sending to a fab*
+- [x] Bill of materials (BOM) — [ibom.html](BOMs/ibom.html)
+- [ ] 3D-printed front panel STL — *not yet designed*
+- [x] Front panel graphics (SVG/PDF for fab-made panels) — [Multi saturation module-brd.svg](Front%20panel%20graphics/Multi%20saturation%20module-brd.svg)
+- [ ] Photos of the assembled module — *not yet — coming soon*
+- [ ] Demo video — *not yet recorded*
+- [ ] Build / assembly instructions — *not yet written*
+- [ ] Calibration / tuning notes — *not yet written*
+- [x] License — [LICENSE](LICENSE)
+
+If you want to help fill a gap (build photos, gerbers, an assembly guide), open an issue or PR.
