@@ -1,5 +1,7 @@
 # Synth Distortion / Saturation Module Design
 
+![Multi Saturation assembled](photos/front.jpg)
+
 ## Revision Summary
 
 - Schematic Revision 0.5 - an easier to read schematic - please note that there are some errors in this. The Eurorack power connector pins are backwards. Use this as a reference for the circuit design.
@@ -160,7 +162,7 @@ What's ready for builders today, and what's still on the TODO list:
 
 **Documentation**
 
-- [ ] Photos of the assembled module — none yet
+- [x] Photos of the assembled module — see [photos/](photos/)
 - [ ] Demo video — none yet
 - [ ] Build / assembly instructions — none yet
 - [ ] Calibration / tuning notes — none yet

@@ -34,3 +34,10 @@ fp-info-cache
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Camera raws (keep local, don't track)
+*.ARW
+*.arw
+*.NEF
+*.CR2
+*.DNG
