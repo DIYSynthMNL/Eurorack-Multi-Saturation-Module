@@ -145,7 +145,7 @@ Rev 0.1 in black
 
 What's available for builders, and what's still on the TODO list:
 
-- [x] Schematic PDF (latest Rev 0.6) — [Single saturation module - Multiboard Schematic - rev0.6.pdf](schematic%20pdfs/Single%20saturation%20module%20-%20Multiboard%20Schematic%20-%20rev0.6.pdf)
+- [x] Schematic PDF (latest Rev 0.6) — [Single saturation module - Multiboard Schematic - rev0.6.pdf](Schematic%20PDFs/Single%20saturation%20module%20-%20Multiboard%20Schematic%20-%20rev0.6.pdf)
 - [x] KiCad source files — [kicad/](kicad/)
 - [ ] Gerber files for PCB fabrication — *not yet exported — generate from kicad/ before sending to a fab*
 - [x] Bill of materials (BOM) — [ibom.html](BOMs/ibom.html)
