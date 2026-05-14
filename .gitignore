@@ -27,3 +27,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# KiCad PCB export archives (regeneratable)
+*.kicad_pcb.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
